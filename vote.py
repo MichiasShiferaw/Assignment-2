@@ -9,3 +9,5 @@ def vote():
         return print('Proposal passes with super majority')
     elif float(2/3) > input_string1 >= float(1/2): # if the amount of yes's are between 2/3 and 1/2
         return print('Proposal passes with simple majority')
+    else:
+        return print('Proposal fails') # less then 1/2 yes
