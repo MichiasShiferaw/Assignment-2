@@ -1,1 +1,6 @@
 def min_enclosing_rectangle(radius, x, y):
+"""(float,float,float)-> (float,float)
+    Computing the smallest (axis-aligned) rectangle
+    Returns x- and y-coordinates of its center"""
+    radius1 = radius
+    while radius1 > 0:
