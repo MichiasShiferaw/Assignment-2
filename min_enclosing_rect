@@ -4,3 +4,9 @@ def min_enclosing_rectangle(radius, x, y):
     Returns x- and y-coordinates of its center"""
     radius1 = radius
     while radius1 > 0:
+        x_val = x
+        y_val = y
+        x_input = (x_val - radius1)
+        y_input = (y_val - radius1)
+        return x_input, y_input
+    print('Radius must be 0 or greater')
